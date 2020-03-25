@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
 import styles from './styles.css'
 
 export default class ExampleComponent extends Component {
@@ -22,3 +21,4 @@ export default class ExampleComponent extends Component {
 }
 
 export {default as FancyHeading} from './js/components/Heading';
+export {default as AccountBox} from './js/components/AccountBox';
