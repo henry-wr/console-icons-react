@@ -1,5 +1,4 @@
 export { default as AccountCircle } from './AccountCircle'
-export { default as AccountBox } from './AccountBox'
 export { default as AddCircle } from './AddCircle'
 export { default as Add } from './Add'
 export { default as BookmarkOutline } from './BookmarkOutline'

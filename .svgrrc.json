@@ -5,7 +5,9 @@
     "svgo": true,
     "svgoConfig": {
         "plugins": [{
-            "removeAttrs": { "attrs": "fill-opacity"}
+            "removeAttrs": { 
+                "attrs": ["fill-opacity","fill"]
+            }
         }]
     },
     "replaceAttrValues": {
@@ -13,7 +15,6 @@
     },
     "svgProps": {
         "fill": "currentColor",
-        "width": "24",
         "height": "24"
     }
 }
