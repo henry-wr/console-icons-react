@@ -3,6 +3,11 @@
     "expandProps": "start",
     "prettier": true,
     "svgo": true,
+    "svgoConfig": {
+        "plugins": [{
+            "removeAttrs": { "attrs": "fill-opacity"}
+        }]
+    },
     "replaceAttrValues": {
         "#003E52": "#000"
     }
