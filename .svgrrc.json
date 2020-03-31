@@ -1,6 +1,6 @@
 {
-    "icon": true,
-    "expandProps": "start",
+    "dimensions": false,
+    "expandProps": "end",
     "prettier": true,
     "svgo": true,
     "svgoConfig": {
@@ -10,5 +10,8 @@
     },
     "replaceAttrValues": {
         "#003E52": "#000"
+    },
+    "svgProps": {
+        "fill": "currentColor"
     }
 }

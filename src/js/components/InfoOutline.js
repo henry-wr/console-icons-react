@@ -2,7 +2,7 @@ import * as React from "react";
 
 function SvgInfoOutline(props) {
   return (
-    <svg {...props} width="1em" height="1em" viewBox="0 0 24 24" fill="none">
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
       <path fill="#E5E5E5" d="M0 0h24v24H0z" />
       <path
         fillRule="evenodd"
