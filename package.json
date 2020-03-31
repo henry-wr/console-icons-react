@@ -20,7 +20,7 @@
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
-    "svgr:build": "npx @svgr/cli -d src/js/components src/svg"
+    "svgr:build": "npx @svgr/cli -d src/js/components src/svg --index-template src/dirCommand.js"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",

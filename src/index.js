@@ -19,6 +19,7 @@ export default class ExampleComponent extends Component {
     )
   }
 }
-
 export {default as FancyHeading} from './js/components/Heading';
 export {default as AccountBox} from './js/components/AccountBox';
+export {default as AccountCircle} from './js/components/AccountCircle';
+export * as Iconz from './js/components/index';
