@@ -1,0 +1,9 @@
+{
+    "icon": true,
+    "expandProps": "end",
+    "prettier": true,
+    "svgo": true,
+    "replaceAttrValues": {
+        "#003e52": "#000"
+    }
+}
