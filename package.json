@@ -66,5 +66,8 @@
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
+  },
+  "dependencies": {
+    "rollup-plugin-clean": "^1.0.0"
   }
 }
