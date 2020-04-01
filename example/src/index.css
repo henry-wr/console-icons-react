@@ -4,9 +4,20 @@ body {
   font-family: sans-serif;
 }
 
-.small-icon {
-  height: 24px;
-  width: auto;
-  display: inline-block;
-  margin: auto;
+.icon-wrapper p {
+  font-family: Sans-Serif;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 128px;
 }

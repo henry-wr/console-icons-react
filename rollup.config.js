@@ -9,7 +9,7 @@ import svgr from '@svgr/rollup'
 import pkg from './package.json'
 
 export default {
-  input: 'src/js/components/index.js',
+  input: 'src/components/icons/index.js',
   output: [
     {
       file: pkg.main,
